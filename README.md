@@ -34,7 +34,7 @@ git clone https://github.com/kelvinndmo/calc_node_cli.git
     
 ### using the app with CLI
 - To use the Application you basically run the following command
-- node app.js <operation> --firstNumber=<number> --secondNumber=<number>
+ ``` - node app.js <operation> --firstNumber=<number> --secondNumber=<number> ``` 
 ```
 - Adittion
   - node app.js add --firstNumber=2 --secondNumber=2 
@@ -52,5 +52,4 @@ git clone https://github.com/kelvinndmo/calc_node_cli.git
   - node app.js divide --firstNumber=2 --secondNumber=2 
 ```
 
-### Open Terminal and type
-$ flask run
+
