@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "11.0.0"
+
+install:
+  - npm install
+
+script:
+  - npm run test
+  - npm run coverage
+after_script:
+  - COVERALLS_REPO_TOKEN=$coveralls_repo_token npm run coveralls
+
+
